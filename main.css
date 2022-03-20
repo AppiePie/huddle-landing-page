@@ -45,6 +45,7 @@ main {
   color: white;
 }
 .hero-description {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
