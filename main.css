@@ -88,7 +88,9 @@ main {
 @media (min-width: 810px) {
   main {
     background: url("images/bg-desktop.svg") hsl(257, 40%, 49%);
-    background-size: auto;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: 100% 100%;
     position: relative;
   }
   .container {
@@ -99,7 +101,7 @@ main {
   }
   .hero {
     flex-direction: row;
-
+    margin-top: 4rem;
     text-align: start;
   }
 
@@ -109,8 +111,11 @@ main {
     justify-content: flex-start;
   }
   .hero-description h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 0 5rem 0 0;
+  }
+  .hero-description p {
+    margin-right: 3rem;
   }
   .hero-description button {
     width: 30%;
@@ -123,7 +128,7 @@ main {
   }
   .social-media {
     position: absolute;
-    bottom: 1rem;
+    bottom: 3rem;
     right: -40%;
   }
   .social-media svg:hover {
